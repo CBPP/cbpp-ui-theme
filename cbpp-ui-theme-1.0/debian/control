@@ -1,0 +1,13 @@
+Source: cbpp-ui-theme
+Section: x11
+Priority: extra
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://crunchbangplusplus.org
+
+Package: cbpp-ui-theme
+Architecture: all
+Depends: ${misc:Depends}, gtk2-engines-murrine
+Description: default theme for CrunchBangPlusPlus
+ Default GTK+ and Openbox themes for CBPP.
