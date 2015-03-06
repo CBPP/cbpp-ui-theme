@@ -1,6 +1,6 @@
 cbpp-ui-theme (1.0) unstable; urgency=low
 
   * Initial Release.
-  * Packaged from xoraxiom's cb-waldorf-xoraxiom
+  * Merged original #! theme with new gtk3 theme based on lassekongo83's Zukitwo.
 
  -- Ben Young <computermouth@crunchbangplusplus.org>  Wed, 18 Feb 2015 22:07:16 -0600
