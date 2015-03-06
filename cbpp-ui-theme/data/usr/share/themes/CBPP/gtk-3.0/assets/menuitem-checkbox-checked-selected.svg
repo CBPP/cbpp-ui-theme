@@ -14,7 +14,7 @@
    id="svg4959"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="menuitem-checkbox-checked-selected.svg">
+   sodipodi:docname="menuitem-checkbox-checked.svg">
   <defs
      id="defs4961" />
   <sodipodi:namedview
@@ -35,7 +35,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="746"
-     inkscape:window-height="463"
+     inkscape:window-height="399"
      inkscape:window-x="0"
      inkscape:window-y="49"
      inkscape:window-maximized="0" />
@@ -59,7 +59,7 @@
     <path
        sodipodi:nodetypes="ccc"
        d="m 399.28571,541.29075 2.99485,3.21429 7.00515,-7.5"
-       style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.39215687;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       style="color:#000000;fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="path6301-5"
        inkscape:connector-curvature="0" />
   </g>
