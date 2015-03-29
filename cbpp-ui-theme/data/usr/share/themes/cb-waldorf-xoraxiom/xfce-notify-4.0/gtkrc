@@ -1,18 +1,18 @@
-# Theme: CBPP Xfce4 notification theme
-# Description: A default theme for CBPP
-# Author: Ben Young <computermouth@crunchbangplusplus.org>
-# Web: https://crunchbangplusplus.org/
+# Theme: waldorf Xfce4 notification theme
+# Description: A default theme for CrunchBang Waldorf
+# Author: Philip Newborough <corenominal@corenominal.org>
+# Web: http://crunchbang.org/
 # -------------------------------------------------------
-style "CBPP-notify-window"
+style "waldorf-notify-window"
 {
     bg[NORMAL] = "#111" 
     XfceNotifyWindow::border-color = "#ffffff"
     XfceNotifyWindow::border-radius = 10.0
     XfceNotifyWindow::border-width = 0
 }
-class "XfceNotifyWindow" style "CBPP-notify-window"
+class "XfceNotifyWindow" style "waldorf-notify-window"
 
-style "CBPP-notify-button"
+style "waldorf-notify-button"
 {
     bg[NORMAL] = "#202020"
     bg[PRELIGHT] = "#404040"
@@ -20,13 +20,13 @@ style "CBPP-notify-button"
     fg[PRELIGHT] = "#ffffff"
 }
 
-style "CBPP-notify-text"
+style "waldorf-notify-text"
 {
     fg[NORMAL] = "#ffffff"
     GtkWidget::link-color = "#a7a7a7"
 }
 
-style "CBPP-notify-progressbar"
+style "waldorf-notify-progressbar"
 {
 	xthickness   = 1
 	ythickness   = 1
@@ -46,8 +46,8 @@ style "CBPP-notify-progressbar"
 	}
 }
 
-widget_class "XfceNotifyWindow.*.GtkButton*" style "CBPP-notify-button"
-widget_class "XfceNotifyWindow.*.<GtkLabel>" style "CBPP-notify-text"
-widget_class "XfceNotifyWindow.*.<GtkProgress>" style "CBPP-notify-progressbar"
-widget_class "XfceNotifyWindow.*.<GtkProgressBar>" style "CBPP-notify-progressbar"
+widget_class "XfceNotifyWindow.*.GtkButton*" style "waldorf-notify-button"
+widget_class "XfceNotifyWindow.*.<GtkLabel>" style "waldorf-notify-text"
+widget_class "XfceNotifyWindow.*.<GtkProgress>" style "waldorf-notify-progressbar"
+widget_class "XfceNotifyWindow.*.<GtkProgressBar>" style "waldorf-notify-progressbar"
 
