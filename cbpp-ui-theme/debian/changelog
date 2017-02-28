@@ -1,3 +1,9 @@
+cbpp-ui-theme (9.0) unstable; urgency=low
+
+  * Fixed insane shadow bug!
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Mon, 27 Feb 2017 23:23:16 -0800
+
 cbpp-ui-theme (1.1) unstable; urgency=low
 
   * Fixed insane shadow bug!
