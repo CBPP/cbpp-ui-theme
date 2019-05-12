@@ -1,3 +1,11 @@
+cbpp-ui-theme (10.0) unstable; urgency=low
+
+  * Removed unused gtk-dark theme
+  * Changed colors to more closely match gtk2 theme
+  * Updated package toolchain dependencies
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 12 May 2019 13:50:16 -0800
+
 cbpp-ui-theme (9.0) unstable; urgency=low
 
   * Fixed insane shadow bug!
