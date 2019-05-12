@@ -3542,11 +3542,11 @@ notebook > header.bottom tab {
 }
 
 notebook > stack:not(:only-child) {
-  background-color: #ffffff;
+  background-color: #cecece;
 }
 
 notebook > stack:not(:only-child):backdrop {
-  background-color: #fcfcfc;
+  background-color: #c2c2c2;
 }
 
 /**************
