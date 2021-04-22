@@ -1,3 +1,9 @@
+cbpp-ui-theme (11.0) unstable; urgency=low
+
+  * Updated toolchain dependencies
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Thu, 22 Apr 2021 13:17:16 -0800
+
 cbpp-ui-theme (10.0) unstable; urgency=low
 
   * Removed unused gtk-dark theme
