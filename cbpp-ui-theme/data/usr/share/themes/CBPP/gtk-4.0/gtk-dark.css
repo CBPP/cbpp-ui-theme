@@ -225,13 +225,13 @@ notebook > header > tabs > arrow:disabled:active, dropdown:drop(active) button.c
 
 notebook > header > tabs > arrow:disabled:active label, dropdown:drop(active) button.combo:disabled:active label, combobox:drop(active) button.combo:disabled:active label, notebook > header > tabs > arrow:disabled:active, dropdown:drop(active) button.combo:disabled:active, combobox:drop(active) button.combo:disabled:active, notebook > header > tabs > arrow:disabled:checked label, dropdown:drop(active) button.combo:disabled:checked label, combobox:drop(active) button.combo:disabled:checked label, notebook > header > tabs > arrow:disabled:checked, dropdown:drop(active) button.combo:disabled:checked, combobox:drop(active) button.combo:disabled:checked, button:disabled:active label, button:disabled:active, button:disabled:checked label, button:disabled:checked { color: #959697; }
 
-button.sidebar-button, notebook > header > tabs > arrow, windowcontrols button, notebook > header > tabs > arrow.flat, dropdown:drop(active) button.flat.combo, dropdown:drop(active) button.combo.sidebar-button, combobox:drop(active) button.flat.combo, combobox:drop(active) button.combo.sidebar-button, button.flat { border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; transition: none; }
+button.sidebar-button, notebook > header > tabs > arrow, windowcontrols button, .toolbar notebook > header > tabs > arrow, .toolbar dropdown:drop(active) button.combo, dropdown:drop(active) .toolbar button.combo, .toolbar combobox:drop(active) button.combo, combobox:drop(active) .toolbar button.combo, notebook > header > tabs > arrow.flat, dropdown:drop(active) button.flat.combo, dropdown:drop(active) button.combo.sidebar-button, combobox:drop(active) button.flat.combo, combobox:drop(active) button.combo.sidebar-button, .toolbar button, button.flat { border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; transition: none; }
 
-button.sidebar-button:hover, notebook > header > tabs > arrow:hover, windowcontrols button:hover, dropdown:drop(active) button.flat.combo:hover, dropdown:drop(active) button.combo.sidebar-button:hover, combobox:drop(active) button.flat.combo:hover, combobox:drop(active) button.combo.sidebar-button:hover, button.flat:hover { transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-duration: 500ms; }
+button.sidebar-button:hover, notebook > header > tabs > arrow:hover, windowcontrols button:hover, .toolbar dropdown:drop(active) button.combo:hover, dropdown:drop(active) .toolbar button.combo:hover, .toolbar combobox:drop(active) button.combo:hover, combobox:drop(active) .toolbar button.combo:hover, dropdown:drop(active) button.flat.combo:hover, dropdown:drop(active) button.combo.sidebar-button:hover, combobox:drop(active) button.flat.combo:hover, combobox:drop(active) button.combo.sidebar-button:hover, .toolbar button:hover, button.flat:hover { color: #eeeeee; outline-color: rgba(238, 238, 238, 0.3); border-color: #1d1f1f; background-image: linear-gradient(to bottom, #3d4142, #36393a 60%, #313434); box-shadow: inset 0 1px rgba(255, 255, 255, 0.05); transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-duration: 500ms; }
 
-button.keyboard-activating.sidebar-button, notebook > header > tabs > arrow.keyboard-activating, windowcontrols button.keyboard-activating, button.sidebar-button:active, notebook > header > tabs > arrow:active, windowcontrols button:active, button.sidebar-button:checked, notebook > header > tabs > arrow:checked, windowcontrols button:checked, dropdown:drop(active) button.flat.keyboard-activating.combo, dropdown:drop(active) button.keyboard-activating.combo.sidebar-button, combobox:drop(active) button.flat.keyboard-activating.combo, combobox:drop(active) button.keyboard-activating.combo.sidebar-button, dropdown:drop(active) button.flat.combo:active, dropdown:drop(active) button.combo.sidebar-button:active, combobox:drop(active) button.flat.combo:active, combobox:drop(active) button.combo.sidebar-button:active, dropdown:drop(active) button.flat.combo:checked, dropdown:drop(active) button.combo.sidebar-button:checked, combobox:drop(active) button.flat.combo:checked, combobox:drop(active) button.combo.sidebar-button:checked, button.flat.keyboard-activating, button.flat:active, button.flat:checked { transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+button.keyboard-activating.sidebar-button, notebook > header > tabs > arrow.keyboard-activating, windowcontrols button.keyboard-activating, button.sidebar-button:active, notebook > header > tabs > arrow:active, windowcontrols button:active, button.sidebar-button:checked, notebook > header > tabs > arrow:checked, windowcontrols button:checked, .toolbar dropdown:drop(active) button.keyboard-activating.combo, dropdown:drop(active) .toolbar button.keyboard-activating.combo, .toolbar combobox:drop(active) button.keyboard-activating.combo, combobox:drop(active) .toolbar button.keyboard-activating.combo, .toolbar dropdown:drop(active) button.combo:active, dropdown:drop(active) .toolbar button.combo:active, .toolbar combobox:drop(active) button.combo:active, combobox:drop(active) .toolbar button.combo:active, .toolbar dropdown:drop(active) button.combo:checked, dropdown:drop(active) .toolbar button.combo:checked, .toolbar combobox:drop(active) button.combo:checked, combobox:drop(active) .toolbar button.combo:checked, dropdown:drop(active) button.flat.keyboard-activating.combo, dropdown:drop(active) button.keyboard-activating.combo.sidebar-button, combobox:drop(active) button.flat.keyboard-activating.combo, combobox:drop(active) button.keyboard-activating.combo.sidebar-button, dropdown:drop(active) button.flat.combo:active, dropdown:drop(active) button.combo.sidebar-button:active, combobox:drop(active) button.flat.combo:active, combobox:drop(active) button.combo.sidebar-button:active, dropdown:drop(active) button.flat.combo:checked, dropdown:drop(active) button.combo.sidebar-button:checked, combobox:drop(active) button.flat.combo:checked, combobox:drop(active) button.combo.sidebar-button:checked, .toolbar button.keyboard-activating, .toolbar button:active, .toolbar button:checked, button.flat.keyboard-activating, button.flat:active, button.flat:checked { color: #eeeeee; outline-color: rgba(238, 238, 238, 0.3); border-color: #1d1f1f; background-image: linear-gradient(to bottom, #252727, #2f3132); box-shadow: inset 0 2px 1px -2px rgba(0, 0, 0, 0.6); transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
-button.sidebar-button:backdrop, notebook > header > tabs > arrow:backdrop, windowcontrols button:backdrop, button.sidebar-button:disabled, notebook > header > tabs > arrow:disabled, windowcontrols button:disabled, label:disabled selection:backdrop, dropdown:drop(active) button.flat.combo:backdrop, dropdown:drop(active) button.combo.sidebar-button:backdrop, combobox:drop(active) button.flat.combo:backdrop, combobox:drop(active) button.combo.sidebar-button:backdrop, dropdown:drop(active) button.flat.combo:disabled, dropdown:drop(active) button.combo.sidebar-button:disabled, combobox:drop(active) button.flat.combo:disabled, combobox:drop(active) button.combo.sidebar-button:disabled, label:disabled selection.flat, button.flat:backdrop, button.flat:disabled, button.flat:backdrop:disabled { border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; }
+button.sidebar-button:backdrop, notebook > header > tabs > arrow:backdrop, windowcontrols button:backdrop, button.sidebar-button:disabled, notebook > header > tabs > arrow:disabled, windowcontrols button:disabled, label:disabled selection:backdrop, .toolbar dropdown:drop(active) button.combo:backdrop, dropdown:drop(active) .toolbar button.combo:backdrop, .toolbar combobox:drop(active) button.combo:backdrop, combobox:drop(active) .toolbar button.combo:backdrop, .toolbar dropdown:drop(active) button.combo:disabled, dropdown:drop(active) .toolbar button.combo:disabled, .toolbar combobox:drop(active) button.combo:disabled, combobox:drop(active) .toolbar button.combo:disabled, dropdown:drop(active) button.flat.combo:backdrop, dropdown:drop(active) button.combo.sidebar-button:backdrop, combobox:drop(active) button.flat.combo:backdrop, combobox:drop(active) button.combo.sidebar-button:backdrop, dropdown:drop(active) button.flat.combo:disabled, dropdown:drop(active) button.combo.sidebar-button:disabled, combobox:drop(active) button.flat.combo:disabled, combobox:drop(active) button.combo.sidebar-button:disabled, label:disabled selection.flat, .toolbar button:backdrop, .toolbar button:disabled, .toolbar button:backdrop:disabled, button.flat:backdrop, button.flat:disabled, button.flat:backdrop:disabled { border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; }
 
 notebook > header > tabs > arrow.image-button, dropdown:drop(active) button.image-button.combo, combobox:drop(active) button.image-button.combo, button.image-button { min-height: 20px; min-width: 20px; padding: 2px; }
 
@@ -568,21 +568,21 @@ dropdown > popover.menu > contents modelbutton, dropdown > popover.menu > conten
 dropdown:drop(active), combobox:drop(active) { box-shadow: none; }
 
 /************ Toolbars * */
-searchbar, .location-bar, .inline-toolbar, toolbar { -GtkWidget-window-dragging: true; padding: 4px; background-color: #3b3e3f; }
+searchbar, .location-bar, .inline-toolbar, .toolbar, toolbar { -GtkWidget-window-dragging: true; padding: 4px; background-color: #3b3e3f; }
 
-toolbar { background: #343637 linear-gradient(to top, #2c2e2f, #313434 2px, #343637 3px); box-shadow: inset 0 1px rgba(238, 238, 238, 0.07); box-shadow: none; border-bottom: 1px solid #1d1f1f; padding: 4px 3px 3px 4px; }
+.toolbar, toolbar { background: #343637 linear-gradient(to top, #2c2e2f, #313434 2px, #343637 3px); box-shadow: inset 0 1px rgba(238, 238, 238, 0.07); box-shadow: none; border-bottom: 1px solid #1d1f1f; padding: 4px 3px 3px 4px; }
 
-.osd toolbar { background-color: transparent; }
+.osd .toolbar, .osd toolbar { background-color: transparent; }
 
-toolbar.osd { padding: 13px; border: none; border-radius: 5px; background-color: rgba(34, 34, 34, 0.8); }
+.toolbar.osd, toolbar.osd { padding: 13px; border: none; border-radius: 5px; background-color: rgba(34, 34, 34, 0.8); }
 
-toolbar.osd.left, toolbar.osd.right, toolbar.osd.top, toolbar.osd.bottom { border-radius: 0; }
+.toolbar.osd.left, .toolbar.osd.right, .toolbar.osd.top, .toolbar.osd.bottom, toolbar.osd.left, toolbar.osd.right, toolbar.osd.top, toolbar.osd.bottom { border-radius: 0; }
 
-toolbar.horizontal separator { margin: 0 7px 1px 6px; }
+.toolbar.horizontal separator, toolbar.horizontal separator { margin: 0 7px 1px 6px; }
 
-toolbar.vertical separator { margin: 6px 1px 7px 0; }
+.toolbar.vertical separator, toolbar.vertical separator { margin: 6px 1px 7px 0; }
 
-toolbar:not(.inline-toolbar):not(.osd) switch, toolbar:not(.inline-toolbar):not(.osd) scale, toolbar:not(.inline-toolbar):not(.osd) entry, toolbar:not(.inline-toolbar):not(.osd) spinbutton, toolbar:not(.inline-toolbar):not(.osd) button { margin-right: 1px; margin-bottom: 1px; }
+.toolbar:not(.inline-toolbar):not(.osd) switch, .toolbar:not(.inline-toolbar):not(.osd) scale, .toolbar:not(.inline-toolbar):not(.osd) entry, .toolbar:not(.inline-toolbar):not(.osd) spinbutton, .toolbar:not(.inline-toolbar):not(.osd) button, toolbar:not(.inline-toolbar):not(.osd) switch, toolbar:not(.inline-toolbar):not(.osd) scale, toolbar:not(.inline-toolbar):not(.osd) entry, toolbar:not(.inline-toolbar):not(.osd) spinbutton, toolbar:not(.inline-toolbar):not(.osd) button { margin-right: 1px; margin-bottom: 1px; }
 
 .inline-toolbar { padding: 3px; border-width: 0 1px 1px; border-radius: 0  0 5px 5px; }
 
@@ -600,6 +600,10 @@ windowcontrols:not(.empty).start:dir(ltr), windowcontrols:not(.empty).end:dir(rt
 windowcontrols:not(.empty).start:dir(rtl), windowcontrols:not(.empty).end:dir(ltr) { margin-left: 7px; }
 
 windowcontrols button { border-radius: 9999px; padding: 3px; margin: 0 2px; min-width: 0; min-height: 0; }
+
+windowcontrols button:hover { color: #eeeeee; outline-color: rgba(238, 238, 238, 0.3); border-color: black; background-image: linear-gradient(to bottom, #27292a, #202122 60%, #1b1c1d); box-shadow: inset 0 1px rgba(255, 255, 255, 0.05); }
+
+windowcontrols button:active, windowcontrols button:checked { color: #eeeeee; outline-color: rgba(238, 238, 238, 0.3); border-color: black; background-image: linear-gradient(to bottom, #050505, #0f0f10); box-shadow: inset 0 2px 1px -2px rgba(0, 0, 0, 0.6); }
 
 /*************** Header bars * */
 .titlebar:not(headerbar), headerbar { padding: 0 5px; min-height: 32px; border-width: 0 0 1px; border-style: solid; border-color: #1d1f1f; border-radius: 0; background: #343637 linear-gradient(to top, #2c2e2f, #313434 2px, #343637 3px); box-shadow: inset 0 1px rgba(238, 238, 238, 0.07); /* Darken switchbuttons for headerbars. issue #1588 */ }
@@ -829,11 +833,11 @@ menubar, .menubar { -GtkWidget-window-dragging: true; padding: 0px; }
 
 menubar:backdrop, .menubar:backdrop { background-color: #3b3e3f; }
 
-menubar > menuitem, .menubar > menuitem { min-height: 16px; padding: 3px 8px; border: 1px solid transparent; }
+menubar > item, menubar > menuitem, .menubar > item, .menubar > menuitem { min-height: 16px; padding: 3px 8px; border: 1px solid transparent; }
 
-menubar > menuitem:hover, .menubar > menuitem:hover { background-image: linear-gradient(to bottom, shade(#949494, 1.2), shade(#949494, 1)); color: #ffffff; border-color: shade(#949494, 1.1); }
+menubar > item:hover, menubar > menuitem:hover, .menubar > item:hover, .menubar > menuitem:hover { background-image: linear-gradient(to bottom, shade(#949494, 1.2), shade(#949494, 1)); color: #ffffff; border-color: shade(#949494, 1.1); }
 
-menubar > menuitem:disabled, .menubar > menuitem:disabled { color: #959697; box-shadow: none; }
+menubar > item:disabled, menubar > menuitem:disabled, .menubar > item:disabled, .menubar > menuitem:disabled { color: #959697; box-shadow: none; }
 
 menu, .menu, .context-menu { margin: 4px; padding: 2px 0px; background-color: #2e2f31; border: 1px solid #1d1f1f; }
 
@@ -1622,7 +1626,7 @@ filechooser #pathbarbox stack { background-color: #3b3e3f; }
 filechooserbutton:drop(active) { box-shadow: none; border-color: transparent; }
 
 /*********** Sidebar * */
-.sidebar { border-style: none; background-color: #222; -gtk-icon-style: regular; }
+.sidebar { border-style: none; background-color: #222; }
 
 .sidebar row, .sidebar treeview, .sidebar listview { border-top: 1px solid transparent; border-bottom: 1px solid transparent; background-color: #222; }
 

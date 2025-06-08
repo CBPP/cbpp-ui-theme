@@ -1592,7 +1592,7 @@ filechooser #pathbarbox stack { background-color: #cecece; }
 filechooserbutton:drop(active) { box-shadow: none; border-color: transparent; }
 
 /*********** Sidebar * */
-.sidebar { border-style: none; background-color: #c7c7c7; -gtk-icon-style: regular; }
+.sidebar { border-style: none; background-color: #c7c7c7; }
 
 .sidebar row, .sidebar treeview { border-top: 1px solid transparent; border-bottom: 1px solid transparent; }
 
